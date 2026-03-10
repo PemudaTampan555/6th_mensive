@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 6th Meneversary</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #ffd6e7, #ffe9f3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 500px;
+    }
+
+    h1 {
+      color: #ff4f8b;
+      margin-bottom: 10px;
+    }
+
+    .heart {
+      font-size: 40px;
+      animation: beat 1s infinite;
+    }
+
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    .message {
+      margin-top: 20px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      background: #ff4f8b;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #ff2f75;
+    }
+
+    .hidden {
+      display: none;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Happy 6th Meneversary 💕</h1>
+    <div class="heart">❤️</div>
+
+    <div class="message">
+      <p>Hayyyy sayaaaaaang.</p>
+      <p>
+        jujur nda nyangka udah 6 bulan
+      </p>
+      <p>
+        Sebuah perjalanan yang sangat panjang tapi beneran kerasa cepet banget, yh aku selalu nyadar sieh tiap hari ntuh beneran kerasa cepet banget karena aku bahagia? emmmm tentu saja pasti bahagia bangat sama kamu sayaaaaaang. Maaf yaaaa kalau kadang kamu ngerasa ada yang aneh dengan diriku, keadaan disini jujur ajh sangat menekan tapi yh aku cuek sih fokus upgrade diri sendiri ajh dan fokus menjalani hubungan imni. Maaf juga bwat scrapbooknya kalaw memakan waktu yang sangaaaat luama waktu itu ada problem sieh ini printilannya dan banyak lagi tapi yh akhirnya terselesaikan, aku harap kamu beneran senang bangat dengan itu semua bahkan kalaw ada limiter buat seberapa bahagianya sampay menembus mungkin yaaayyy WKWKWKWKWKW. Makasi banyak sayaaaaaang sudah menjadi tempat menenangkan dan menyenangkan di saat sekitar ini menekan buat menjadi gila, aku buanyakbanyak terharu sampay saat ini kita beneran melewati angin ribut badai. Yaaaa bisa dibilang ini masih sebagian dari masalah sih, karena perjalanan kita juga masih panjang juga tinggal bagaimana kita upgrade diri, menyikapi masalah, komunikasi, memilih satu sama lain yh aku bakal terus bahas hal ini karena buat hubungan yang emang mau serius ini semua kunci utamanya. maw nangis saya
+      </p>
+    </div>
+
+    <button onclick="showMessage()">Klik ini ya</button>
+
+    <div id="surprise" class="hidden">
+      aku suayaaaaang kamu bangatbangat, beneran yang suayaaaaang bangat bahkan katakata ajh susah buat mengungkapkannya, janji bwat terus memperbaiki komunikasi dan memilih satu sama lain yayyyy sayaaang karena aku juga akan selalu begitu kamu nieh nomol satu, i love youuuu forevermore sayaaaaang bahkan kalaw semesta ini sudah hancur cinta aku bwat kamu masih ada sepanjang waktu selamanya mwahmwah
+    </div>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("surprise").style.display = "block";
+    }
+  </script>
+</body>
+</html>
